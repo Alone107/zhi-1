@@ -99,32 +99,57 @@ body {
     margin-left: 80px;
   }
 }
-@media (max-width: 1050px) {
+@media (max-width: 1100px) {
   .header-zhiviesteni-title {
-    top: 200px;
+    top: 170px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 1050px) {
   .header-zhiviesteni-title {
     top: 200px;
     font-size: 64px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .header-zhiviesteni-title {
-    font-size: 4rem;
+    top: 170px;
+  }
+}
+@media (max-width: 750px) {
+  .header-zhiviesteni-title {
     margin-left: 40px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .header-zhiviesteni-title {
-    font-size: 3rem;
-    max-width: 100px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .header-zhiviesteni-title {
+    font-size: 48px;
+    max-width: 150px;
+  }
+}
+@media (max-width: 550px) {
+  .header-zhiviesteni-title {
+    top: 170px;
+  }
+}
+@media (max-width: 450px) {
+  .header-zhiviesteni-title {
+    font-size: 36px;
   }
 }
 @media (max-width: 420px) {
   .header-zhiviesteni-title {
     top: 200px;
+    font-size: 28px;
+  }
+}
+@media (max-width: 300px) {
+  .header-zhiviesteni-title {
+    font-size: 24px;
   }
 }
 .header-zhiviesteni-text {
@@ -141,31 +166,62 @@ body {
     margin-left: 80px;
   }
 }
+@media (max-width: 1100px) {
+  .header-zhiviesteni-text {
+    top: 375px;
+  }
+}
 @media (max-width: 1050px) {
   .header-zhiviesteni-text {
-    top: 400px;
+    top: 330px;
   }
 }
 @media (max-width: 800px) {
   .header-zhiviesteni-text {
-    top: 360px;
+    top: 300px;
+  }
+}
+@media (max-width: 750px) {
+  .header-zhiviesteni-text {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 650px) {
+  .header-zhiviesteni-text {
+    margin-left: 10px;
   }
 }
 @media (max-width: 600px) {
   .header-zhiviesteni-text {
-    top: 350px;
-    margin-left: 40px;
+    top: 270px;
+    font-size: 1rem;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .header-zhiviesteni-text {
-    top: 300px;
+    top: 270px;
+  }
+}
+@media (max-width: 450px) {
+  .header-zhiviesteni-text {
+    top: 245px;
+    font-size: 1rem;
   }
 }
 @media (max-width: 420px) {
   .header-zhiviesteni-text {
-    top: 300px;
-    font-size: 1rem;
+    top: 260px;
+  }
+}
+@media (max-width: 350px) {
+  .header-zhiviesteni-text {
+    font-size: 12px;
+    max-width: 100px;
+  }
+}
+@media (max-width: 300px) {
+  .header-zhiviesteni-text {
+    top: 250px;
   }
 }
 
