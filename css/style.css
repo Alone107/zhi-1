@@ -107,6 +107,7 @@ body {
 @media (max-width: 800px) {
   .header-zhiviesteni-title {
     top: 200px;
+    font-size: 64px;
   }
 }
 @media (max-width: 600px) {
@@ -142,12 +143,12 @@ body {
 }
 @media (max-width: 1050px) {
   .header-zhiviesteni-text {
-    top: 500px;
+    top: 400px;
   }
 }
 @media (max-width: 800px) {
   .header-zhiviesteni-text {
-    top: 400px;
+    top: 360px;
   }
 }
 @media (max-width: 600px) {
@@ -231,7 +232,6 @@ body {
     font-size: 2rem;
     padding-top: 10px;
     margin-bottom: 10px;
-    margin-left: 80px;
   }
 }
 .zhiviesteni-about-wrapper {
@@ -374,6 +374,7 @@ body {
 @media (max-width: 650px) {
   .zhiviesteni-project-title {
     font-size: 2rem;
+    margin-left: 0;
   }
 }
 .zhiviesteni-project-text {
@@ -388,9 +389,10 @@ body {
     font-size: 1rem;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .zhiviesteni-project-text {
     max-width: 240px;
+    margin-left: 0;
   }
 }
 
