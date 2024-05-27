@@ -408,7 +408,8 @@ body {
   background-repeat: no-repeat;
 }
 .slide-wrapper {
-  margin-left: calc(var(--index) * 4.2);
+  margin-left: calc(var(--index) * 6.8);
+  margin-left: 150px;
   margin-top: calc(var(--index) * 3.2);
   margin-bottom: calc(var(--index) * 2.9);
   display: -webkit-box;
@@ -474,7 +475,7 @@ body {
   margin-top: calc(var(--index) * 2.2);
   color: #e8e5db;
   font-size: calc(var(--index) * 0.7);
-  margin-left: calc(var(--index) * 4.2);
+  margin-left: calc(var(--index) * 6.8);
 }
 @media (max-width: 600px) {
   .slide-adress {
