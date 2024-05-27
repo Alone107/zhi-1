@@ -419,7 +419,10 @@ margin-left: calc(var(--index) * 4.2);
 
 max-width: 115px;
 text-transform: uppercase;
+@media (max-width:650px) {
+margin-bottom: calc(var(--index) * 5);
 
+}
 
   }
   &-adress {
