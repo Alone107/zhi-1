@@ -7132,7 +7132,8 @@ line-height: 28px;
   }
 
   .link-it {
-    height: 300px;
+    padding-bottom: 30px;
+    height: auto;
     background-image: url(../images/zhiviesteni/bg-tel.png);
     background-size: 100% 100%;
   }
@@ -7147,7 +7148,7 @@ line-height: 28px;
     font-size: 14px;
     max-width: 60px;
     margin-bottom: 0;
-    line-height: 1.3;
+    line-height: 1;
     margin-top: 0;
   }
   .link-it-block {
@@ -7164,7 +7165,6 @@ line-height: 28px;
   }
   .link-it-block-2-title {
     font-size: 20px;
-    line-height: 1.3;
     max-width: 210px;
     margin-bottom: 25px;
     letter-spacing: 2px;
@@ -7190,7 +7190,7 @@ line-height: 28px;
     margin-left: 0px;
   }
   .link-it {
-    height: 280px;
+    /* height: 280px; */
   }
   .link-it-info-row {
   }
