@@ -7097,7 +7097,7 @@ line-height: 28px;
   display: none;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
   .link-it-block-1 {
     margin-right: 10px;
     padding: 24px 40px 24px 30px;
