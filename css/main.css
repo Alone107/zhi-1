@@ -7021,7 +7021,7 @@ line-height: 28px;
   font-family: "Georgia", sans-serif;
   font-weight: 400;
   font-size: 40px;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
   color: #e8e5db;
   max-width: 180px;
   text-transform: uppercase;
