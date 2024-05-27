@@ -87,7 +87,7 @@ display: block;
   &-title {
     position: absolute;
     top: 300px;
-    left: 80px;
+    left: 160px;
     font-family: 'Georgia', sans-serif;
     font-size: 96px;
     font-weight: 400;
@@ -125,15 +125,15 @@ display: block;
   &-text {
     position: absolute;
     top: 580px;
-    left: 80px;
+    left: 160px;
     font-size: 1.5rem;
     z-index: 3;
     max-width: 230px;
     color: #3e5a4a;
-    @media (max-width:1920px) {
-      left: 160px;
+    // @media (max-width:1920px) {
+    //   left: 160px;
   
-      }
+    //   }
     @media (max-width:1050px) {
       top: 500px;
     }
