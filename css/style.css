@@ -94,6 +94,11 @@ body {
   color: #3e5a4a;
   max-width: 360px;
 }
+@media (max-width: 1920px) {
+  .header-zhiviesteni-title {
+    left: 160px;
+  }
+}
 @media (max-width: 1050px) {
   .header-zhiviesteni-title {
     top: 200px;
@@ -130,6 +135,11 @@ body {
   z-index: 3;
   max-width: 230px;
   color: #3e5a4a;
+}
+@media (max-width: 1920px) {
+  .header-zhiviesteni-text {
+    left: 160px;
+  }
 }
 @media (max-width: 1050px) {
   .header-zhiviesteni-text {
