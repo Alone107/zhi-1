@@ -7132,10 +7132,11 @@ line-height: 28px;
   }
 
   .link-it {
+    background-color:#e8e5db ;
     padding-bottom: 30px;
     height: auto;
     background-image: url(../images/zhiviesteni/bg-tel.png);
-    background-size: 100% 100%;
+    background-size: 90% 100%;
   }
   .link-it-wrapper-tel {
     display: block;
@@ -7191,6 +7192,8 @@ line-height: 28px;
   }
   .link-it {
     /* height: 280px; */
+    background-size: 100% 100%;
+
   }
   .link-it-info-row {
   }
