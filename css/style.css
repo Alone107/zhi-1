@@ -465,6 +465,11 @@ body {
     margin-bottom: calc(var(--index) * 5);
   }
 }
+@media (max-width: 360px) {
+  .slide-text {
+    margin-top: calc(var(--index) * 5);
+  }
+}
 .slide-adress {
   margin-top: calc(var(--index) * 2.2);
   color: #e8e5db;
@@ -662,7 +667,6 @@ body {
 .slide-1-img {
   width: 100%;
   max-width: 1600px;
-  min-height: 50vh;
 }
 .slide-1-block {
   position: absolute;
@@ -687,7 +691,7 @@ body {
 @media (max-width: 600px) {
   .slide-1-title {
     font-size: 1rem;
-    max-width: calc(var(--index) * 20);
+    max-width: calc(var(--index) * 10);
   }
 }
 .slide-1-text {

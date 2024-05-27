@@ -423,6 +423,11 @@ text-transform: uppercase;
 margin-bottom: calc(var(--index) * 5);
 
 }
+@media (max-width:360px) {
+margin-top: calc(var(--index) * 5);
+  
+  }
+
 
   }
   &-adress {
@@ -604,11 +609,7 @@ display: block;
   &-img {
     width: 100%;
     max-width: 1600px;
-    min-height: 50vh;
-    @media (max-width:600px) {
-    // min-height:50vh;
-
-            }
+    // min-height: 50vh;
   }
   &-block {
     position: absolute;
@@ -627,7 +628,7 @@ display: block;
             }
             @media (max-width:600px) {
               font-size: 1rem;
-              max-width: calc(var(--index)* 20);
+              max-width: calc(var(--index)* 10);
                     }
   }
   &-text {
