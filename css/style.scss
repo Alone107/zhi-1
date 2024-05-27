@@ -455,7 +455,6 @@ margin-top: calc(var(--index) * 5);
 }
 
 .zhiviesteni-team {
-  margin-left: 80px;
   @media (max-width:750px) {
     margin-left: 0;
 
@@ -468,26 +467,36 @@ margin-top: calc(var(--index) * 5);
     font-family: 'Georgia', sans-serif;
 font-weight: 400;
 margin-bottom: 100px;
+margin-left: 80px;
+@media (max-width:750px) {
+
+
+    }
 @media (max-width:500px) {
   font-size: 3rem;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   text-align: center;
+  margin-left: 0;
   }
   }
   &-wrapper {
+    margin-left: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 195px;
     @media (max-width:950px) {
     justify-items: center;
     gap: 10px;
+    margin-left: 0;
 
     }
+    
     @media (max-width:750px) {
     grid-template-columns: 1fr;
     gap: 50px;
     padding-bottom: 50px;
+    margin-left: 0;
 
   
       }
