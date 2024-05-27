@@ -505,7 +505,7 @@ body {
   .slide-title {
     margin-right: 0;
     font-size: 1rem;
-    max-width: calc(var(--index) * 12);
+    max-width: calc(var(--index) * 15);
   }
 }
 .slide-subtitle {
@@ -761,7 +761,7 @@ body {
 @media (max-width: 600px) {
   .slide-1-title {
     font-size: 1rem;
-    max-width: calc(var(--index) * 10);
+    max-width: calc(var(--index) * 15);
   }
 }
 .slide-1-text {
