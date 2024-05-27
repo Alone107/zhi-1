@@ -741,4 +741,10 @@ body {
 .slide-1-adress {
   margin-top: 0;
   margin-left: 0;
+}
+
+.container-1 {
+  margin: 0 auto;
+  max-width: 1480px;
+  padding: 0 10px;
 }/*# sourceMappingURL=style.css.map */
