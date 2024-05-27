@@ -193,10 +193,6 @@ display: block;
     margin-bottom: 130px;
     margin-left: 80px;
     padding-top: 100px;
-    @media (max-width:1450px) {
-    margin-left: 150px;
-      
-    }
     @media (max-width:900px) {
       padding-top: 30px;
       margin-bottom: 30px;
@@ -315,10 +311,6 @@ display: block;
     color: #3e5a4a;
     text-transform: uppercase;
     padding-top: 130px;
-    @media (max-width:1450px) {
-      margin-left: 150px;
-        
-      }
     @media (max-width:1000px) {
       padding-top: 30px;
       margin-bottom: 30px;
@@ -339,10 +331,6 @@ font-size: 1.3rem;
 max-width: 560px;
 margin-left: 80px;
 padding-bottom: 130px;
-@media (max-width:1450px) {
-  margin-left: 150px;
-    
-  }
 @media (max-width:650px) {
   font-size: 1rem;
 
@@ -383,10 +371,6 @@ padding-bottom: 130px;
   }
   &-wrapper {
     margin-left: calc(var(--index) * 4.2);
-    @media (max-width:1450px) {
-      margin-left: 150px;
-      margin-left: calc(var(--index) * 6.8);
-      }
     margin-top: calc(var(--index) * 3.2);
     margin-bottom: calc(var(--index) * 2.9);
     display: flex;
@@ -432,9 +416,6 @@ margin-left: calc(var(--index) * 2.7);
 margin-bottom: calc(var(--index) * 10);
 margin-top: calc(var(--index) * 8);
 margin-left: calc(var(--index) * 4.2);
-@media (max-width:1450px) {
-  margin-left: calc(var(--index) * 6.8);
-  }
 
 max-width: 115px;
 text-transform: uppercase;
@@ -454,9 +435,6 @@ margin-top: calc(var(--index) * 5);
     color: #e8e5db;
     font-size: calc(var(--index) * 0.7);
     margin-left: calc(var(--index) * 4.2);
-    @media (max-width:1450px) {
-      margin-left: calc(var(--index) * 6.8);
-      }
 
     @media (max-width:600px) {
       margin-left: 0;
@@ -468,9 +446,6 @@ margin-top: calc(var(--index) * 5);
 
 .zhiviesteni-team {
   margin-left: 80px;
-  @media (max-width:1450px) {
-    margin-left: 150px;
-    }
   @media (max-width:750px) {
     margin-left: 0;
 
@@ -671,11 +646,11 @@ display: block;
 
 // ----------------------------------------------------
 
-.container-1 {
-  margin: 0 auto;
-  max-width: 1480px;
-  padding: 0 10px;
-}
+// .container-1 {
+//   margin: 0 auto;
+//   max-width: 1480px;
+//   padding: 0 10px;
+// }
 
 // .link-it {
 //   background-image: url(../images/zhiviesteni/bg-it.png);

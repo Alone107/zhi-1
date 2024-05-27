@@ -200,11 +200,6 @@ body {
   margin-left: 80px;
   padding-top: 100px;
 }
-@media (max-width: 1450px) {
-  .zhiviesteni-about-title {
-    margin-left: 150px;
-  }
-}
 @media (max-width: 900px) {
   .zhiviesteni-about-title {
     padding-top: 30px;
@@ -354,11 +349,6 @@ body {
   text-transform: uppercase;
   padding-top: 130px;
 }
-@media (max-width: 1450px) {
-  .zhiviesteni-project-title {
-    margin-left: 150px;
-  }
-}
 @media (max-width: 1000px) {
   .zhiviesteni-project-title {
     padding-top: 30px;
@@ -382,11 +372,6 @@ body {
   max-width: 560px;
   margin-left: 80px;
   padding-bottom: 130px;
-}
-@media (max-width: 1450px) {
-  .zhiviesteni-project-text {
-    margin-left: 150px;
-  }
 }
 @media (max-width: 650px) {
   .zhiviesteni-project-text {
@@ -429,12 +414,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-@media (max-width: 1450px) {
-  .slide-wrapper {
-    margin-left: 150px;
-    margin-left: calc(var(--index) * 6.8);
-  }
 }
 @media (max-width: 600px) {
   .slide-wrapper {
@@ -481,11 +460,6 @@ body {
   max-width: 115px;
   text-transform: uppercase;
 }
-@media (max-width: 1450px) {
-  .slide-text {
-    margin-left: calc(var(--index) * 6.8);
-  }
-}
 @media (max-width: 650px) {
   .slide-text {
     margin-bottom: calc(var(--index) * 5);
@@ -502,11 +476,6 @@ body {
   font-size: calc(var(--index) * 0.7);
   margin-left: calc(var(--index) * 4.2);
 }
-@media (max-width: 1450px) {
-  .slide-adress {
-    margin-left: calc(var(--index) * 6.8);
-  }
-}
 @media (max-width: 600px) {
   .slide-adress {
     margin-left: 0;
@@ -515,11 +484,6 @@ body {
 
 .zhiviesteni-team {
   margin-left: 80px;
-}
-@media (max-width: 1450px) {
-  .zhiviesteni-team {
-    margin-left: 150px;
-  }
 }
 @media (max-width: 750px) {
   .zhiviesteni-team {
@@ -741,10 +705,4 @@ body {
 .slide-1-adress {
   margin-top: 0;
   margin-left: 0;
-}
-
-.container-1 {
-  margin: 0 auto;
-  max-width: 1480px;
-  padding: 0 10px;
 }/*# sourceMappingURL=style.css.map */
