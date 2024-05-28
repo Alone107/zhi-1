@@ -31,16 +31,15 @@ form.addEventListener('submit', formSend);
 async function formSend(e) {
   e.preventDefault();
   let formData = new FormData(form);
+  let tel = document.getElementById('tel').value;
+
 
   let response = await fetch('sendmail.php', {
-    method : 'POST',
-    body : formData
+    method : "POST",
+    body : JSON.stringify(tel),
+    headers: {
+      "Content-Type": "application/json; charset=UTF-8"
+    }
   })
-  if (response.ok) {
-    let result = await response.json();
-    form.reset();
-  } else {
-    alert('Ошибка')
-
-  }
+  let result = await response.text();
 }
