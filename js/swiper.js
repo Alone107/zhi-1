@@ -42,4 +42,6 @@ async function formSend(e) {
     }
   })
   let result = await response.text();
+  popup.classList.remove('popup-open')
+  shadow.classList.remove('popup-open')
 }
