@@ -409,7 +409,7 @@ body {
   font-size: 1rem;
   text-align: center;
   color: #e8e5db;
-  margin-bottom: 120px;
+  margin-bottom: 140px;
   max-width: 546px;
   line-height: 2;
 }
@@ -433,7 +433,7 @@ body {
   font-family: "Georgia", sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   color: #e8e5db;
 }
 @media (max-width: 900px) {
@@ -579,7 +579,6 @@ body {
   max-width: calc(var(--index) * 30);
   text-transform: uppercase;
   letter-spacing: calc(var(--index) * 0.1);
-  margin-right: calc(var(--index) * 12);
 }
 @media (max-width: 600px) {
   .slide-title {
@@ -641,7 +640,7 @@ body {
   font-size: 3.9rem;
   font-family: "Georgia", sans-serif;
   font-weight: 400;
-  margin-bottom: 100px;
+  margin-bottom: 180px;
   margin-left: 80px;
 }
 @media (max-width: 500px) {
@@ -656,8 +655,15 @@ body {
 .zhiviesteni-team-wrapper {
   margin-left: 80px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 320px 320px 320px;
+  gap: 150px;
   padding-bottom: 195px;
+}
+@media (max-width: 1280px) {
+  .zhiviesteni-team-wrapper {
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 @media (max-width: 950px) {
   .zhiviesteni-team-wrapper {
@@ -695,7 +701,7 @@ body {
 .zhiviesteni-team-job {
   margin-top: 45px;
   color: #3e5a4a;
-  font-size: 2rem;
+  font-size: 33px;
   max-width: 250px;
 }
 @media (max-width: 950px) {
@@ -817,6 +823,7 @@ body {
 .slide-1-img {
   width: 100%;
   max-width: 1600px;
+  float: right;
 }
 .slide-1-block {
   position: absolute;
@@ -831,6 +838,52 @@ body {
 }
 .slide-1-title {
   margin-right: 0;
+  margin-left: 250px;
+}
+@media (max-width: 1851px) {
+  .slide-1-title {
+    margin-left: 220px;
+  }
+}
+@media (max-width: 1801px) {
+  .slide-1-title {
+    margin-left: 190px;
+  }
+}
+@media (max-width: 1751px) {
+  .slide-1-title {
+    margin-left: 160px;
+  }
+}
+@media (max-width: 1701px) {
+  .slide-1-title {
+    margin-left: 130px;
+  }
+}
+@media (max-width: 1651px) {
+  .slide-1-title {
+    margin-left: 110px;
+  }
+}
+@media (max-width: 1601px) {
+  .slide-1-title {
+    margin-left: 90px;
+  }
+}
+@media (max-width: 1551px) {
+  .slide-1-title {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 1501px) {
+  .slide-1-title {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 1451px) {
+  .slide-1-title {
+    margin-left: 20px;
+  }
 }
 @media (max-width: 600px) {
   .slide-1-title {
@@ -846,6 +899,52 @@ body {
 }
 .slide-1-text {
   margin-left: 0;
+  margin-left: 250px;
+}
+@media (max-width: 1851px) {
+  .slide-1-text {
+    margin-left: 220px;
+  }
+}
+@media (max-width: 1801px) {
+  .slide-1-text {
+    margin-left: 190px;
+  }
+}
+@media (max-width: 1751px) {
+  .slide-1-text {
+    margin-left: 160px;
+  }
+}
+@media (max-width: 1701px) {
+  .slide-1-text {
+    margin-left: 130px;
+  }
+}
+@media (max-width: 1651px) {
+  .slide-1-text {
+    margin-left: 110px;
+  }
+}
+@media (max-width: 1601px) {
+  .slide-1-text {
+    margin-left: 90px;
+  }
+}
+@media (max-width: 1551px) {
+  .slide-1-text {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 1501px) {
+  .slide-1-text {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 1451px) {
+  .slide-1-text {
+    margin-left: 20px;
+  }
 }
 @media (max-width: 600px) {
   .slide-1-text {
@@ -854,7 +953,52 @@ body {
 }
 .slide-1-adress {
   margin-top: 0;
-  margin-left: 0;
+  margin-left: 250px;
+}
+@media (max-width: 1851px) {
+  .slide-1-adress {
+    margin-left: 220px;
+  }
+}
+@media (max-width: 1801px) {
+  .slide-1-adress {
+    margin-left: 190px;
+  }
+}
+@media (max-width: 1751px) {
+  .slide-1-adress {
+    margin-left: 160px;
+  }
+}
+@media (max-width: 1701px) {
+  .slide-1-adress {
+    margin-left: 130px;
+  }
+}
+@media (max-width: 1651px) {
+  .slide-1-adress {
+    margin-left: 110px;
+  }
+}
+@media (max-width: 1601px) {
+  .slide-1-adress {
+    margin-left: 90px;
+  }
+}
+@media (max-width: 1551px) {
+  .slide-1-adress {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 1501px) {
+  .slide-1-adress {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 1451px) {
+  .slide-1-adress {
+    margin-left: 20px;
+  }
 }
 
 .container-1 {
