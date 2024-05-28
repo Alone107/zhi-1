@@ -35,7 +35,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 80px;
+  gap: 150px;
   z-index: 3;
 }
 @media (max-width: 420px) {
@@ -1001,4 +1001,10 @@ body {
   .slide-1-adress {
     margin-left: 20px;
   }
+}
+
+.container-1 {
+  margin: 0 auto;
+  max-width: 1480px;
+  padding: 0 10px;
 }/*# sourceMappingURL=style.css.map */
