@@ -201,6 +201,7 @@ body {
   max-width: 230px;
   color: #3e5a4a;
   margin-bottom: 100px;
+  line-height: 1.5;
 }
 @media (max-width: 1280px) {
   .header-zhiviesteni-text {
@@ -215,6 +216,7 @@ body {
 @media (max-width: 600px) {
   .header-zhiviesteni-text {
     font-size: 1rem;
+    line-height: 1;
   }
 }
 @media (max-width: 350px) {
@@ -440,6 +442,7 @@ body {
   max-width: 560px;
   margin-left: 80px;
   padding-bottom: 130px;
+  line-height: 1.5;
 }
 @media (max-width: 650px) {
   .zhiviesteni-project-text {
@@ -448,8 +451,13 @@ body {
 }
 @media (max-width: 650px) {
   .zhiviesteni-project-text {
-    max-width: 240px;
     margin-left: 0;
+  }
+}
+@media (max-width: 450px) {
+  .zhiviesteni-project-text {
+    margin-left: 0;
+    line-height: 1;
   }
 }
 
@@ -947,6 +955,7 @@ body {
 }
 .popup-zhiviesteni img {
   background-color: #e7e5da;
+  cursor: pointer;
 }
 .popup-zhiviesteni h4 {
   font-size: 38px;
